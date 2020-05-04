@@ -1,0 +1,119 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    text-align: center;
+    margin: 40px auto;
+    background-color: rgba(248, 248, 248, 0.479);
+}
+
+.mainframe {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    /* height: 95vh; */
+    max-width: 700px;
+}
+
+.titleDiv {
+    margin: 15px auto;
+    background-color: rgba(12, 143, 250, 0.904);
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 14px 100px 13px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 5px 14px 100px 13px rgba(0, 0, 0, 0.17);
+    box-shadow: 5px 14px 100px 13px rgba(0, 0, 0, 0.17);
+}
+
+.titleDiv h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px auto;
+    text-decoration: underline;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 50px auto;
+}
+
+.inputDiv input {
+    border: none;
+    width: 420px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.inputDiv i {
+    margin: 5px 5px 5px 0px;
+}
+
+.inputDiv i:active {
+    transform: scale(1.4);
+}
+
+button {
+    background-color: none;
+    border-radius: 100%;
+}
+
+#Todo-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(12, 143, 250, 0.904);
+    height: auto;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 14px 51px 13px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 5px 14px 51px 13px rgba(0, 0, 0, 0.17);
+    box-shadow: 5px 14px 51px 13px rgba(0, 0, 0, 0.17);
+}
+
+.list-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 500px;
+    height: 60px;
+}
+
+.list-content p {
+    align-self: center;
+    margin-left: 40px;
+    font-size: 1.6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.actn-buttons {
+    display: none;
+    margin-right: 30px;
+    height: 60px;
+}
+
+.list-content:hover .actn-buttons {
+    display: block;
+}
+
+.list-content div i {
+    margin: 10px 5px 10px 10px;
+}
+
+.list-content div i:active {
+    transform: scale(1.4);
+}
